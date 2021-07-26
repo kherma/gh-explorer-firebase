@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply font-mono;
+  }
+}
+
+.loading-spinner-border-tlr {
+  border-bottom-color: theme('colors.gray.200');
+}
+
+.Toastify__toast-container {
+  touch-action: none;
+}
